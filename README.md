@@ -1,4 +1,4 @@
-How to hack gitgub streak
+How to hack github streak
 -------------------------
 
 1. Create a repo
