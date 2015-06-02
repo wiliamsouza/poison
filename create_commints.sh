@@ -8,8 +8,8 @@ day=$JOINED_TIMESTAMP
 while [ $day -le $NOW_TIMESTAMP ]
 do
     date -s @$day
-    echo $day > $day.txt
-    git add $day.txt
+    echo $day > files/$day.txt
+    git add files/$day.txt
     git commit -m "Haking github streak $day"
     day=$(($day + 86400))
 done
